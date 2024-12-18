@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Example{
+    width: 375px;
+    height: 707px;
+    border-radius: 30px;
+    border: 14px solid #374151;
+    opacity: 0px;
+    background: #F3F4F6;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+}
+.BottomNav{
+    width: 360px;
+    height: 64px;
+    border-radius: 9999px;
+    border: 1px 0px 0px 0px;
+    background:#FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width:768px) {
+    *{
+        box-sizing: border-box;
+    }
+}
